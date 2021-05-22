@@ -1,4 +1,4 @@
-package com.example.databinding
+package com.example.databindingview
 
 import org.junit.Test
 

@@ -1,9 +1,9 @@
-package com.example.databinding
+package com.example.databindingview
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
-import com.example.databinding.databinding.ActivityMainBinding
+import com.example.databindingview.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
