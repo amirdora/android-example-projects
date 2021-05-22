@@ -1,2 +1,2 @@
-include ':app'
-rootProject.name = "Data Binding"
+include ':data-binding-view'
+rootProject.name = "Android Example Projects"
