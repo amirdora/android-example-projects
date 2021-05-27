@@ -1,8 +1,8 @@
 ## Data Binding:
-- Data binding eliminates the need to run findViewById() at run time which improves app performance.
+- Data binding eliminates the need to run `findViewById()` at run time which improves app performance.
 
 ### To enable Data Binding:
-1.  Open app's build.gradle file and enable data binding
+1.  Open app's `build.gradle` file and enable data binding
 
 <pre>
 android {
@@ -22,7 +22,7 @@ dataBinding.enabled = true
 
 
 </pre>
-3. Next we need to create variable for binding object inside our activity or fragment, and inside oncreate replace setContentView. 
+3. Next we need to create variable for binding object inside our activity or fragment, and inside `oncreate` replace `setContentView`. 
 <pre>	
     lateinit var binding: ActivityMainBinding
 
