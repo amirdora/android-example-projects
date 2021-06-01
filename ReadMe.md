@@ -1,5 +1,5 @@
 ## About Repository:
-- This repository contains a set of individual Android Studio projects for convinience of android developers, Each project contains a `ReadMe` file for project related instructions. Each standalone app demonstrates different use cases.
+- This repository contains a set of individual Android Studio projects for convenience of android developers, Each project contains a `ReadMe` file for project related instructions. Each standalone app demonstrates different use cases.
 
 ### Example apps:
 
