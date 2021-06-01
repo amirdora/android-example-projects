@@ -2,3 +2,4 @@ include ':EspressoUiTest'
 include ':data-binding-data'
 include ':data-binding-view'
 rootProject.name = "Android Example Projects"
+include ':webtoapp'
