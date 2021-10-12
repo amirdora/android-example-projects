@@ -4,3 +4,4 @@ include ':data-binding-view'
 rootProject.name = "Android Example Projects"
 include ':webtoapp'
 include ':qrcodescanner'
+include ':daggerhiltdependencyinjection'
