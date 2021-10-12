@@ -1,6 +1,6 @@
 package com.amirdora.daggerhiltdependencyinjection.di
 
-import android.content.Context
+import android.app.Application
 import com.amirdora.daggerhiltdependencyinjection.db.AppDao
 import com.amirdora.daggerhiltdependencyinjection.db.AppDatabase
 import dagger.Module
@@ -11,17 +11,18 @@ import javax.inject.Singleton
 
 @Module
 @InstallIn(SingletonComponent::class)
-object AppModule {
+object APPModule {
+
 
     @Singleton
     @Provides
-    fun getAppDB(context: Context): AppDatabase {
-        return AppDatabase.getAppDb(context)
+    fun getAppDB(context: Application): AppDatabase {
+        return AppDatabase.getAppDB(context)
     }
 
     @Singleton
     @Provides
-    fun getDao(appDb: AppDatabase): AppDao {
-        return appDb.getDAO()
+    fun getDao(appDB: AppDatabase): AppDao {
+        return appDB.getDAO()
     }
 }

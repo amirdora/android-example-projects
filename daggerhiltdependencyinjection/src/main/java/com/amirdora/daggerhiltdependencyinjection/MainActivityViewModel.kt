@@ -17,7 +17,7 @@ class MainActivityViewModel @Inject constructor(private val repository: RoomRepo
         loadRecords()
     }
 
-    fun loadRecords() {
+    private fun loadRecords() {
         val list = repository.getRecords()
 
         userData.postValue(list)
@@ -25,6 +25,7 @@ class MainActivityViewModel @Inject constructor(private val repository: RoomRepo
 
     fun insertRecord(userEntity: UserEntity) {
         repository.insertRecord(userEntity)
+        loadRecords()
     }
 
 }
